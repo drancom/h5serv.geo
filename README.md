@@ -1,6 +1,10 @@
 # h5serv.geo
 A set of utilities for the HDF Server (h5serv), with a focus on geospatial datasets.
 
+This is still a mess as I am working on porting the code over from a separate webpage into a stand-alone utility. 
+
+Requires turf-inside, jQuery (for now).
+
 ```
 var h5serv = h5serv({server: '127.0.0.1',
                  port : '5000',
