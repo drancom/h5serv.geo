@@ -8,7 +8,7 @@ Requires turf-inside, jQuery (for now).
 ```
 var h5serv = h5serv({server: '127.0.0.1',
                  port : '5000',
-                 domain : 'hdfgroup.org' });           //This is the default from the config file - must match yours
+                 domain : 'hdfgroup.org' });           //Default from h5serv config file - must match yours
 
 var hdfFile = h5serv.file({name: 'my_hdf_file',
                            dimensions: [1440,720],     //Currently the only allowed Dimensions. [x,y]
